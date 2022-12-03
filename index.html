@@ -6,11 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Samuel Orozco Mondragón">
+    <!--Se debe de agregar el google fonts-->
+    <link  href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <!--Se inicia con la creación del menú superior para la navegación-->
+    <header class="header">
+        <div class="containerHeader">
+            <div class="btnMenuCorredizo">
+                <label for="btn-menu">☰</label>
+            </div>
 
+            <p class="logo">Portafolio Personal</p>
 
+            <nav class="menuPrincipal">
+                <!--Se agrega cada uno de los links a las partes de la pagina-->
+                <a href="index.html">Página Principal</a>
+                <a href="">Proyectos</a>
+                <a href="">Contactos</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <!--SE ENLAZA EL BOTON DEL CHECK BOX PARA SU FUNCIONAMIENTO-->
+    <input type="checkbox" id="btn-menu">
+    <div class="containerMenu">
+        <div class="contMenu">
+            <nav class="menuCorredizo">
+                <a href="index.html">Página Principal</a>
+                <a href="">Proyectos</a>
+                <a href="">Contactos</a>
+            </nav>
+            <label for="btn-menu">✖️</label>
+        </div>
+    </div>
 
 </body>
 </html>
